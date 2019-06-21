@@ -1,0 +1,32 @@
+{
+  "name": "downloads-button",
+  "version": "1.0.0",
+  "description": "dowlnoad button pure javascript",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "reactstrap": "^8.0.0",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "webpack-cli": "^3.3.4",
+    "webpack": "^4.34.0"
+  }
+}
